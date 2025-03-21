@@ -86,9 +86,6 @@ We can add items to our vector store by using the `add_documents` function. (we'
 Once your vector store has been created and the relevant documents have been added, you will most likely wish to query it during the running of your chain or agent.
 
 # RAG creation
-# Build a Retrieval Augmented Generation (RAG) App: Part 1
-
-One of the most powerful applications enabled by LLMs is sophisticated question-answering (Q&A) chatbots. These are applications that can answer questions about specific source information. These applications use a technique known as Retrieval Augmented Generation, or RAG.
 
 ## Installation
 
