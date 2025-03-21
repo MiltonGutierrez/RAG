@@ -4,6 +4,24 @@
 
 # Build a Retrieval Augmented Generation (RAG)
 One of the most powerful applications enabled by LLMs is sophisticated question-answering (Q&A) chatbots. These are applications that can answer questions about specific source information. These applications use a technique known as Retrieval Augmented Generation, or RAG.
+## Project Architecture and Components
+
+The application consists of the following components:
+
+1. **Document Loading**: Loads documents from a web source (e.g., a blog post).
+2. **Text Splitting**: Splits documents into smaller chunks for efficient retrieval.
+3. **Vector Store**: Stores document embeddings for similarity search.
+4. **Retrieval**: Retrieves relevant document chunks based on user queries.
+5. **Generation**: Uses a language model to generate answers based on retrieved content.
+6. **State Management**: Manages chat history and context for multi-turn conversations.
+7. **Agent**: Handles complex queries by breaking them into smaller tasks.
+
+The functionallity can be described usign the following diagram
+
+![image](https://github.com/user-attachments/assets/ca5737bc-775f-417a-9a98-62974a894f0f)
+
+
+---
 
 ## Pinecon 
 Pinecone is a vector database with broad functionality.
